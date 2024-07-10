@@ -15,10 +15,14 @@ Raw data was provided by the Hoboken Shelter through their analytics platform on
 ## Code Overview
 | File Name | Description | Skills Demonstrated | 
 |-----------|-------------|---------------------|
-| Donations & Fundraiser Join | Joined together two formatted tables with race donation and fundraiser information. Established groupings for fundraiser type, race year and team names for dashboard visualization & filtering | Case statements, Complex Joins | 
-| Donations Formatting | Formatted raw donations data to establish accurate race year for dashboard filtering. Also created consistent formatting for all datetime fields for downstream joining| Case Statements, Date Functions | 
-| Fundraiser Formatting | Formatted raw fundraiser data to establish accurate race year for dashboard filtering. Also created consistent formatting for all datetime fields for downstream joining| Case Statements, Date Functions | 
-| Participant Formatting | Joined multiple annual participant reports to create an aggregated list of all participants, allowing for year-over-year comparisons. Also established age bins for additional participant groupings | Union Statements, Case Statements |
+| [Donations & Fundraiser Join](https://github.com/ddibara5/hoboken-shelter-5k/blob/main/Donation_Fundraiser%20Join.sql) | Joined together two formatted tables with race donation and fundraiser information. Established groupings for fundraiser type, race year and team names for dashboard visualization & filtering | Case statements, Complex Joins | 
+| [Donations Formatting](https://github.com/ddibara5/hoboken-shelter-5k/blob/main/Donations%20formatting.sql) | Formatted raw donations data to establish accurate race year for dashboard filtering. Also created consistent formatting for all datetime fields for downstream joining| Case Statements, Date Functions | 
+| [Fundraiser Formatting](https://github.com/ddibara5/hoboken-shelter-5k/blob/main/Fundraisers%20formatting.sql) | Formatted raw fundraiser data to establish accurate race year for dashboard filtering. Also created consistent formatting for all datetime fields for downstream joining| Case Statements, Date Functions | 
+| [Participant Formatting](https://github.com/ddibara5/hoboken-shelter-5k/blob/main/Participants%20formatting.sql) | Joined multiple annual participant reports to create an aggregated list of all participants, allowing for year-over-year comparisons. Also established age bins for additional participant groupings | Union Statements, Case Statements |
+
+## Entity Relationship Diagram (ERD)
+
+![Hoboken Shelter ERD](https://github.com/ddibara5/hoboken-shelter-5k/assets/169186597/526bfcf3-4dd2-418d-8187-f1b4a83048cc)
 
 ## Dashboard Highlights
 
